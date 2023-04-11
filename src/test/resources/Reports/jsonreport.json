@@ -1,0 +1,217 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1827200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user should be in login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-21T16:59:49.370Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20162033200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To validate the select flights",
+        "description": "",
+        "id": "to-validate-the-selecting-flights-of-the-applications;to-validate-the-select-flights",
+        "after": [
+          {
+            "result": {
+              "duration": 747600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.AfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 478000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user should be in login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 343400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user shoud be scroll down the page",
+            "match": {
+              "location": "ScrollDownn.the_user_shoud_be_scroll_down_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 249400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user select to the particular cuntry",
+            "match": {
+              "location": "ScrollDownn.the_user_select_to_the_particular_cuntry()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1396290700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select the particular flights based on here price",
+            "match": {
+              "location": "ScrollDownn.select_the_particular_flights_based_on_here_price()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the selecting flights of the applications",
+    "description": "",
+    "id": "to-validate-the-selecting-flights-of-the-applications",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/flightselection.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 133000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user should be in login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-21T17:00:11.006Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11033873000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "to validate the login with invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-the-application;to-validate-the-login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 182200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.AfterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.stepdefinition.LoginSteps.the_user_has_select_the_travel_date(LoginSteps.java:35)\r\n\tat ✽.the user has select the travel date(file:src/test/resources/features/login.feature:7)\r\n",
+              "duration": 37067800,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the user has select the travel date",
+            "match": {
+              "location": "LoginSteps.the_user_has_select_the_travel_date()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100100,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "then click the button",
+            "match": {
+              "location": "LoginSteps.then_click_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "The user select return date",
+            "match": {
+              "location": "LoginSteps.the_user_select_return_date()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "to validate the login functionality of the application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
